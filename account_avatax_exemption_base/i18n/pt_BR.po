@@ -1,0 +1,578 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_avatax_exemption_base
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sandro Gauna <sgeboxinfo@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__message_needaction
+msgid "Action Needed"
+msgstr "Ação Necessária"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__activity_ids
+msgid "Activities"
+msgstr "Atividades"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Decoração de atividade excepcional "
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__activity_state
+msgid "Activity State"
+msgstr "Estado da Atividade"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__business_type
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_type__business_type
+msgid "Activity Type"
+msgstr "Tipo de Atividade"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Ícone do Tipo de Atividade"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__add_exemption_number
+#, fuzzy
+msgid "Add Exemption Number"
+msgstr "Adicionar número de isenção"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__message_attachment_count
+msgid "Attachment Count"
+msgstr "Contagem de Anexos"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner__exemption_ids
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_users__exemption_ids
+#, fuzzy
+msgid "Avalara Exemptions"
+msgstr "Isenções de Avalara"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_business_type__avatax_id
+#, fuzzy
+msgid "Avatax"
+msgstr "Avatax"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__avatax_id
+#, fuzzy
+msgid "Avatax Certificate ID"
+msgstr "ID do certificado Avatax"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_country_state__avatax_code
+#, fuzzy
+msgid "Avatax Code"
+msgstr "Código Avatax"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner__avatax_id
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_users__avatax_id
+#, fuzzy
+msgid "Avatax Customer ID"
+msgstr "ID do cliente Avatax"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model,name:account_avatax_exemption_base.model_res_partner_exemption
+#, fuzzy
+msgid "Avatax Exemption"
+msgstr "Isenção de Avatax"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model,name:account_avatax_exemption_base.model_res_partner_exemption_line
+#, fuzzy
+msgid "Avatax Exemption Line"
+msgstr "Linha de Isenção de Avatax"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model,name:account_avatax_exemption_base.model_res_partner_exemption_type
+#, fuzzy
+msgid "Avatax Exemption Type"
+msgstr "Tipo de isenção avataxa"
+
+#. module: account_avatax_exemption_base
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption_base.view_partner_details_form_inherit1
+#, fuzzy
+msgid "Avatax Exemption related settings are managed on"
+msgstr "As configurações relacionadas à isenção avatax são gerenciadas em"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model,name:account_avatax_exemption_base.model_res_partner_group_state
+#, fuzzy
+msgid "Avatax Group of States"
+msgstr "Grupo Avatax de Estados"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_country_state__avatax_name
+#, fuzzy
+msgid "Avatax Name"
+msgstr "Nome Avatax"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_country_state__avatax_nexus
+#, fuzzy
+msgid "Avatax Nexus"
+msgstr "Avatax Nexus"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__avatax_status
+#, fuzzy
+msgid "Avatax Status"
+msgstr "Avatax Status"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields.selection,name:account_avatax_exemption_base.selection__res_partner_exemption__state__cancel
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model,name:account_avatax_exemption_base.model_res_partner
+msgid "Contact"
+msgstr "Contato"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_group_state__country_id
+msgid "Country"
+msgstr "País"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model,name:account_avatax_exemption_base.model_res_country_state
+msgid "Country state"
+msgstr "Estado do país"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__create_uid
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_business_type__create_uid
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__create_uid
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_type__create_uid
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_group_state__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__create_date
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_business_type__create_date
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__create_date
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_type__create_date
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_group_state__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_country_state__display_name
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner__display_name
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__display_name
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_business_type__display_name
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__display_name
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_type__display_name
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_group_state__display_name
+msgid "Display Name"
+msgstr "Exibir Nome"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields.selection,name:account_avatax_exemption_base.selection__res_partner_exemption__state__done
+msgid "Done"
+msgstr "Concluído"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields.selection,name:account_avatax_exemption_base.selection__res_partner_exemption__state__draft
+msgid "Draft"
+msgstr "Rascunho"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields.selection,name:account_avatax_exemption_base.selection__res_partner_exemption__exemption_number_type__drivers_license_number
+#, fuzzy
+msgid "Drivers License Number"
+msgstr "Número da Carteira de Motorista"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__effective_date
+msgid "Effective Date"
+msgstr "Data efetiva"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__exemption_code_id
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_business_type__exemption_code_id
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_type__exemption_code_id
+#, fuzzy
+msgid "Entity Use Code"
+msgstr "Código de Uso de Entidade"
+
+#. module: account_avatax_exemption_base
+#: model:ir.actions.act_window,name:account_avatax_exemption_base.exemption_act_window
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__exemption_id
+#: model:ir.ui.menu,name:account_avatax_exemption_base.menu_exemption
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption_base.exemption_form_view
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption_base.exemption_tree_view
+#, fuzzy
+msgid "Exemption"
+msgstr "Isenção"
+
+#. module: account_avatax_exemption_base
+#: model:ir.actions.act_window,name:account_avatax_exemption_base.exemption_reason_type_act_window
+#: model:ir.model,name:account_avatax_exemption_base.model_res_partner_exemption_business_type
+#: model:ir.ui.menu,name:account_avatax_exemption_base.menu_exemption_reason_type
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption_base.exemption_reason_type_tree_view
+#, fuzzy
+msgid "Exemption Activity Type"
+msgstr "Tipo de atividade de isenção"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__exemption_line_ids
+#, fuzzy
+msgid "Exemption Line"
+msgstr "Linha de Isenção"
+
+#. module: account_avatax_exemption_base
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption_base.exemption_form_view
+#, fuzzy
+msgid "Exemption Lines"
+msgstr "Linhas de Isenção"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__exemption_number
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__exemption_number
+#, fuzzy
+msgid "Exemption Number"
+msgstr "Número de isenção"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__exemption_number_type
+#, fuzzy
+msgid "Exemption Number Type"
+msgstr "Tipo de número de isenção"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields.selection,name:account_avatax_exemption_base.selection__res_partner_exemption__exemption_number_type__exemption_number/taxpayer_id
+#, fuzzy
+msgid "Exemption Number/Taxpayer ID"
+msgstr "Número de isenção/Identificação do Contribuinte"
+
+#. module: account_avatax_exemption_base
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption_base.exemption_reason_type_form_view
+#, fuzzy
+msgid "Exemption Reason Type"
+msgstr "Tipo de razão de isenção"
+
+#. module: account_avatax_exemption_base
+#: model:ir.actions.act_window,name:account_avatax_exemption_base.exemption_type_act_window
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__exemption_type
+#: model:ir.ui.menu,name:account_avatax_exemption_base.menu_exemption_type
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption_base.exemption_type_form_view
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption_base.exemption_type_tree_view
+#, fuzzy
+msgid "Exemption Type"
+msgstr "Tipo de isenção"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__exemption_validity_duration
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_type__exemption_validity_duration
+#, fuzzy
+msgid "Exemption Validity Duration"
+msgstr "Duração da validade da isenção"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__expiry_date
+msgid "Expiry Date"
+msgstr "Data de validade"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields.selection,name:account_avatax_exemption_base.selection__res_partner_exemption__exemption_number_type__fein
+#, fuzzy
+msgid "FEIN"
+msgstr "FEIN"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (Canais)"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Parceiros)"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,help:account_avatax_exemption_base.field_res_partner_exemption__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Ícone da fonte, por exemplo fa-tasks"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields.selection,name:account_avatax_exemption_base.selection__res_partner_exemption__exemption_number_type__foreign_diplomat_number
+#, fuzzy
+msgid "Foreign Diplomat Number"
+msgstr "Número de diplomata estrangeiro"
+
+#. module: account_avatax_exemption_base
+#: model:ir.actions.act_window,name:account_avatax_exemption_base.group_of_states_act_window
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__group_of_state
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_type__group_of_state
+#: model:ir.ui.menu,name:account_avatax_exemption_base.menu_group_of_states
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption_base.group_of_states_form_view
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption_base.group_of_states_tree_view
+#, fuzzy
+msgid "Group of States"
+msgstr "Grupo de Estados"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_country_state__id
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner__id
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__id
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_business_type__id
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__id
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_type__id
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_group_state__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__activity_exception_icon
+msgid "Icon"
+msgstr "Ícone"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,help:account_avatax_exemption_base.field_res_partner_exemption__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Ícone para indicar uma atividade excepcional"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,help:account_avatax_exemption_base.field_res_partner_exemption__message_needaction
+#: model:ir.model.fields,help:account_avatax_exemption_base.field_res_partner_exemption__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Se selecionado, novas mensagens requerem sua atenção."
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,help:account_avatax_exemption_base.field_res_partner_exemption__message_has_error
+#: model:ir.model.fields,help:account_avatax_exemption_base.field_res_partner_exemption__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Se selecionado, algumas mensagens tem um erro de entrega."
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields.selection,name:account_avatax_exemption_base.selection__res_partner_exemption__state__progress
+msgid "In Progress"
+msgstr "Em Andamento"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__message_is_follower
+msgid "Is Follower"
+msgstr "É Seguidor"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_country_state____last_update
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner____last_update
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption____last_update
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_business_type____last_update
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line____last_update
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_type____last_update
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_group_state____last_update
+msgid "Last Modified on"
+msgstr "Última Modificação Feita em"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__write_uid
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_business_type__write_uid
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__write_uid
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_type__write_uid
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_group_state__write_uid
+msgid "Last Updated by"
+msgstr "Ultima atualização por"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__write_date
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_business_type__write_date
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__write_date
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_type__write_date
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_group_state__write_date
+msgid "Last Updated on"
+msgstr "Ultima Atualização em"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__linked_to_customer
+#, fuzzy
+msgid "Linked To Customer"
+msgstr "Vinculado ao Cliente"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Anexo Principal"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__message_has_error
+msgid "Message Delivery error"
+msgstr "Erro na Entrega da Mensagem"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__message_ids
+msgid "Messages"
+msgstr "Mensagens"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Prazo Limite da Minha Atividade"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__name
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_business_type__name
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__name
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_type__name
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_group_state__name
+msgid "Name"
+msgstr "Nome"
+
+#. module: account_avatax_exemption_base
+#: code:addons/account_avatax_exemption_base/models/exemption.py:0
+#, python-format
+msgid "New"
+msgstr "Novo"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Prazo Para a Próxima Atividade"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__activity_summary
+msgid "Next Activity Summary"
+msgstr "Resumo da Próxima Atividade"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__activity_type_id
+msgid "Next Activity Type"
+msgstr "Tipo da Próxima Atividade"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de Ações"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__message_has_error_counter
+msgid "Number of errors"
+msgstr "Número de Erros"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,help:account_avatax_exemption_base.field_res_partner_exemption__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensagens que requerem uma ação"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,help:account_avatax_exemption_base.field_res_partner_exemption__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensagens com erro de entrega"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,help:account_avatax_exemption_base.field_res_partner_exemption__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensagens não lidas"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__partner_id
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__partner_id
+msgid "Partner"
+msgstr "Parceiro"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__activity_user_id
+msgid "Responsible User"
+msgstr "Usuário Responsável"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Erro no envio de SMS"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__state
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_line__state_id
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_group_state__state_ids
+msgid "State"
+msgstr "Estado"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__state_ids
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption_type__state_ids
+msgid "States"
+msgstr "Situações"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,help:account_avatax_exemption_base.field_res_partner_exemption__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Status baseado em atividades\n"
+"Vencida: Data de vencimento já passou\n"
+"Hoje: Data da atividade é hoje\n"
+"Planejada: Atividade futura."
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,help:account_avatax_exemption_base.field_res_partner_exemption__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Tipo de atividade de exceção registrada."
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__message_unread
+msgid "Unread Messages"
+msgstr "Mensagens Não Lidas"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de Mensagens não Lidas"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner__use_commercial_entity
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_users__use_commercial_entity
+#, fuzzy
+msgid "Use Commercial Entity"
+msgstr "Use a Entidade Comercial"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,help:account_avatax_exemption_base.field_res_partner_exemption__exemption_validity_duration
+#: model:ir.model.fields,help:account_avatax_exemption_base.field_res_partner_exemption_type__exemption_validity_duration
+#, fuzzy
+msgid "Validity duration in days"
+msgstr "Duração da validade em dias"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,field_description:account_avatax_exemption_base.field_res_partner_exemption__website_message_ids
+msgid "Website Messages"
+msgstr "Mensagens do Site"
+
+#. module: account_avatax_exemption_base
+#: model:ir.model.fields,help:account_avatax_exemption_base.field_res_partner_exemption__website_message_ids
+msgid "Website communication history"
+msgstr "Histórico de comunicação do site"
+
+#. module: account_avatax_exemption_base
+#: model_terms:ir.ui.view,arch_db:account_avatax_exemption_base.view_partner_details_form_inherit1
+msgid "the parent company"
+msgstr "Companhia Relacionada"
