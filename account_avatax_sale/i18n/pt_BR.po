@@ -1,0 +1,227 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_avatax_sale
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sandro Gauna <sgeboxinfo@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: account_avatax_sale
+#: model:ir.model.fields,field_description:account_avatax_sale.field_avalara_salestax__sale_calculate_tax
+#, fuzzy
+msgid "Auto Calculate Tax on SO Save"
+msgstr "Auto calcular imposto em SO Save"
+
+#. module: account_avatax_sale
+#: model:ir.model.fields,help:account_avatax_sale.field_avalara_salestax__sale_calculate_tax
+#, fuzzy
+msgid ""
+"Automatically triggers API to calculate tax If changes made onSO's "
+"warehouse_id, tax_on_shipping_address, SO line's price_unit, discount, "
+"product_uom_qty"
+msgstr ""
+"Aciona automaticamente a API para calcular o imposto Se as alterações "
+"feitas no warehouse_id da TAX_ON_SHIPPING_ADDRESS, price_unit da linha SO, "
+"desconto, product_uom_qty"
+
+#. module: account_avatax_sale
+#: model:ir.model.fields,field_description:account_avatax_sale.field_sale_order__tax_amount
+#: model:ir.model.fields,field_description:account_avatax_sale.field_sale_order_line__tax_amt
+#, fuzzy
+msgid "AvaTax"
+msgstr "AvaTax"
+
+#. module: account_avatax_sale
+#: model:ir.model,name:account_avatax_sale.model_avalara_salestax
+#, fuzzy
+msgid "AvaTax Configuration"
+msgstr "Configuração AvaTax"
+
+#. module: account_avatax_sale
+#: model:ir.model.fields,field_description:account_avatax_sale.field_sale_order__calculate_tax_on_save
+#, fuzzy
+msgid "Calculate Tax On Save"
+msgstr "Calcular imposto sobre o save"
+
+#. module: account_avatax_sale
+#: model_terms:ir.ui.view,arch_db:account_avatax_sale.sale_order_update_form_view
+#, fuzzy
+msgid "Compute Taxes"
+msgstr "Impostos sobre a computação"
+
+#. module: account_avatax_sale
+#: model:ir.model,name:account_avatax_sale.model_res_partner
+msgid "Contact"
+msgstr "Contato"
+
+#. module: account_avatax_sale
+#: model:ir.model.fields,field_description:account_avatax_sale.field_account_move__display_name
+#: model:ir.model.fields,field_description:account_avatax_sale.field_avalara_salestax__display_name
+#: model:ir.model.fields,field_description:account_avatax_sale.field_res_partner__display_name
+#: model:ir.model.fields,field_description:account_avatax_sale.field_sale_order__display_name
+#: model:ir.model.fields,field_description:account_avatax_sale.field_sale_order_line__display_name
+msgid "Display Name"
+msgstr "Exibir Nome"
+
+#. module: account_avatax_sale
+#: code:addons/account_avatax_sale/models/partner.py:0
+#, fuzzy, python-format
+msgid ""
+"Enabling the exemption status for all states may have tax compliance risks, "
+"and should be carefully considered.\n"
+"\n"
+" Please ensure that your tax advisor was consulted and the necessary tax "
+"exemption documentation was obtained for every state this Partner may have "
+"transactions."
+msgstr ""
+"A habilitação do status de isenção para todos os estados pode ter riscos de "
+"conformidade fiscal, devendo ser cuidadosamente considerada.\n"
+"\n"
+"Certifique-se de que seu consultor fiscal foi consultado e que a "
+"documentação de isenção fiscal necessária foi obtida para cada estado que "
+"este Parceiro possa ter transações."
+
+#. module: account_avatax_sale
+#: model:ir.model.fields,field_description:account_avatax_sale.field_res_partner__property_exemption_country_wide
+#: model:ir.model.fields,field_description:account_avatax_sale.field_res_users__property_exemption_country_wide
+#, fuzzy
+msgid "Exemption Applies Country Wide"
+msgstr "Isenção aplica-se em todo o país"
+
+#. module: account_avatax_sale
+#: model:ir.model.fields,field_description:account_avatax_sale.field_sale_order__exemption_code_id
+#, fuzzy
+msgid "Exemption Code"
+msgstr "Código de Isenção"
+
+#. module: account_avatax_sale
+#: model:ir.model.fields,field_description:account_avatax_sale.field_sale_order__exemption_code
+#, fuzzy
+msgid "Exemption Number"
+msgstr "Número de isenção"
+
+#. module: account_avatax_sale
+#: model:ir.model.fields,field_description:account_avatax_sale.field_account_move__id
+#: model:ir.model.fields,field_description:account_avatax_sale.field_avalara_salestax__id
+#: model:ir.model.fields,field_description:account_avatax_sale.field_res_partner__id
+#: model:ir.model.fields,field_description:account_avatax_sale.field_sale_order__id
+#: model:ir.model.fields,field_description:account_avatax_sale.field_sale_order_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_avatax_sale
+#: model:ir.model.fields,help:account_avatax_sale.field_sale_order__exemption_code_id
+#, fuzzy
+msgid "It show the customer exemption code"
+msgstr "Ele mostra o código de isenção do cliente"
+
+#. module: account_avatax_sale
+#: model:ir.model.fields,help:account_avatax_sale.field_sale_order__exemption_code
+#, fuzzy
+msgid "It show the customer exemption number"
+msgstr "Ele mostra o número de isenção do cliente"
+
+#. module: account_avatax_sale
+#: model:ir.model,name:account_avatax_sale.model_account_move
+msgid "Journal Entry"
+msgstr "Lançamento de Diário"
+
+#. module: account_avatax_sale
+#: model:ir.model.fields,field_description:account_avatax_sale.field_account_move____last_update
+#: model:ir.model.fields,field_description:account_avatax_sale.field_avalara_salestax____last_update
+#: model:ir.model.fields,field_description:account_avatax_sale.field_res_partner____last_update
+#: model:ir.model.fields,field_description:account_avatax_sale.field_sale_order____last_update
+#: model:ir.model.fields,field_description:account_avatax_sale.field_sale_order_line____last_update
+msgid "Last Modified on"
+msgstr "Última Modificação Feita em"
+
+#. module: account_avatax_sale
+#: model:ir.model.fields,field_description:account_avatax_sale.field_sale_order__location_code
+msgid "Location Code"
+msgstr "Código de Localização"
+
+#. module: account_avatax_sale
+#: model:ir.model.fields,help:account_avatax_sale.field_sale_order__location_code
+#, fuzzy
+msgid "Origin address location code"
+msgstr "Código de localização do endereço de origem"
+
+#. module: account_avatax_sale
+#: model:ir.model.fields,field_description:account_avatax_sale.field_avalara_salestax__override_line_taxes
+#, fuzzy
+msgid "Override Line Taxes"
+msgstr "Impostos sobre a linha de substituição"
+
+#. module: account_avatax_sale
+#: model:ir.model,name:account_avatax_sale.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de venda"
+
+#. module: account_avatax_sale
+#: model:ir.model,name:account_avatax_sale.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Linha de Ordens de Venda"
+
+#. module: account_avatax_sale
+#: model:ir.model.fields,field_description:account_avatax_sale.field_sale_order__tax_address_id
+#, fuzzy
+msgid "Tax Address"
+msgstr "Endereço Fiscal"
+
+#. module: account_avatax_sale
+#: code:addons/account_avatax_sale/models/partner.py:0
+#, fuzzy, python-format
+msgid "Tax Compliance Risk"
+msgstr "Risco de conformidade fiscal"
+
+#. module: account_avatax_sale
+#: model:ir.model.fields,field_description:account_avatax_sale.field_sale_order__tax_on_shipping_address
+#, fuzzy
+msgid "Tax based on shipping address"
+msgstr "Imposto com base no endereço de transporte"
+
+#. module: account_avatax_sale
+#: model:ir.actions.server,name:account_avatax_sale.action_sale_order_compute_taxes
+#, fuzzy
+msgid "Update taxes with AvaTax"
+msgstr "Atualizar impostos com a AvaTax"
+
+#. module: account_avatax_sale
+#: model:ir.model.fields,field_description:account_avatax_sale.field_avalara_salestax__use_partner_invoice_id
+#, fuzzy
+msgid "Use Invoice partner's customer code in SO"
+msgstr "Use o código do cliente do parceiro Invoice em SO"
+
+#. module: account_avatax_sale
+#: model:ir.model.fields,help:account_avatax_sale.field_avalara_salestax__override_line_taxes
+#, fuzzy
+msgid ""
+"When checked, the Avatax computed tax will replace any other taxes that may "
+"exist in the document line."
+msgstr ""
+"Quando verificado, o imposto computado da Avatax substituirá quaisquer "
+"outros impostos que possam existir na linha de documentos."
+
+#. module: account_avatax_sale
+#: model:ir.model.fields,help:account_avatax_sale.field_res_partner__property_exemption_country_wide
+#: model:ir.model.fields,help:account_avatax_sale.field_res_users__property_exemption_country_wide
+#, fuzzy
+msgid ""
+"When enabled, the delivery address State is irrelevant when looking up the "
+"exemption status, meaning that the exemption is considered applicable for "
+"all states"
+msgstr ""
+"Quando habilitado, o endereço de entrega Estado é irrelevante ao procurar o "
+"status de isenção, o que significa que a isenção é considerada aplicável "
+"para todos os estados"
