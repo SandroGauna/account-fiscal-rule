@@ -204,7 +204,7 @@ class AvalaraSalestax(models.Model):
         self.ensure_one()
         avatax_config = self
 
-        currency_code = self.env.user.company_id.currency_id.name
+        currency_code = self.env.company.currency_id.name
         if currency_id:
             currency_code = currency_id.name
 
@@ -233,7 +233,7 @@ class AvalaraSalestax(models.Model):
         if avatax_config.validation_on_save:
             for address in [partner, shipping_address, ship_from_address]:
                 if not address.date_validation:
-                    address.multi_address_validation()
+                    address.multi_address_validation(validation_on_save=True)
 
         # this condition is required, in case user select force address validation
         # on AvaTax API Configuration
